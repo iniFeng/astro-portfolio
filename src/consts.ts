@@ -13,25 +13,25 @@ export type Link = {
 }
 
 export const SITE: Site = {
-  TITLE: 'astro-erudite',
-  DESCRIPTION:
-    'astro-erudite is a opinionated, no-frills blogging template—built with Astro, Tailwind, and shadcn/ui.',
-  EMAIL: 'jason@enscribe.dev',
+  TITLE: 'iniFeng.me',
+  DESCRIPTION: 'Freelance frontend web developer.',
+  EMAIL: 'iniFeng@outlook.com',
   NUM_POSTS_ON_HOMEPAGE: 2,
-  POSTS_PER_PAGE: 3,
-  SITEURL: 'https://astro-erudite.vercel.app',
+  POSTS_PER_PAGE: 4,
+  SITEURL: 'https://enscribe-dev-astro.vercel.app',
 }
 
 export const NAV_LINKS: Link[] = [
+  { href: '/', label: 'home' },
   { href: '/blog', label: 'blog' },
-  { href: '/authors', label: 'authors' },
-  { href: '/about', label: 'about' },
-  { href: '/tags', label: 'tags' },
+  // { href: '/authors', label: 'authors' },
+  // { href: '/about', label: 'about' },
+  // { href: '/tags', label: 'tags' },
 ]
 
 export const SOCIAL_LINKS: Link[] = [
-  { href: 'https://github.com/jktrn', label: 'GitHub' },
-  { href: 'https://twitter.com/enscry', label: 'Twitter' },
-  { href: 'jason@enscribe.dev', label: 'Email' },
+  { href: 'https://github.com/iniFeng', label: 'GitHub' },
+  { href: 'https://x.com/NaiiveLin', label: 'Twitter' },
+  { href: 'inifeng@outlook.com', label: 'Email' },
   { href: '/rss.xml', label: 'RSS' },
 ]

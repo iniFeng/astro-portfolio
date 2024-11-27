@@ -1,0 +1,9 @@
+{
+  "previewTheme": "github-light.css",
+  "codeBlockTheme": "default.css",
+  "usePuppeteerCore": false,
+  "mermaidTheme": "mermaid.css",
+  "parserConfig": {
+    "mdx": true
+  }
+}
